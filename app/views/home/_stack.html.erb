@@ -1,6 +1,6 @@
   <section class="section shell" id="stack">
     <div class="section-number">02</div>
-    <div class="section-content"><p class="kicker"><span data-language-target="ru">Мой стек</span><span data-language-target="en">My stack</span></p><h2><span data-language-target="ru">Инструменты моей мастерской.</span><span data-language-target="en">Tools of my craft.</span></h2>
+    <div class="section-content"><p class="kicker"><%= t(".kicker") %></p><h2><%= t(".heading") %></h2>
       <div class="stack-grid">
         <% [["Ruby", "3.4"], ["Rails", "8.x"], ["PostgreSQL", "17"], ["Hotwire", "Turbo + Stimulus"], ["Docker", "Kamal"], ["Testing", "RSpec / Minitest"], ["CI/CD", "GitHub Actions"], ["Monitoring", "Sentry / AppSignal"]].each do |name, detail| %>
           <article class="stack-card"><span class="stack-icon">✦</span><h3><%= name %></h3><p><%= detail %></p></article>

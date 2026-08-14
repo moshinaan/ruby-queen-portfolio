@@ -1,14 +1,14 @@
   <nav class="nav shell" aria-label="Main navigation">
-    <a class="logo" href="#top" aria-label="Ruby Queen home"><span>RQ</span> Ruby Queen</a>
+    <a class="logo" href="#top" aria-label="<%= t(".logo_aria") %>"><span>RQ</span> Ruby Queen</a>
     <div class="nav-right">
-      <a href="#about"><span data-language-target="ru">Обо мне</span><span data-language-target="en">About</span></a>
-      <a href="#stack"><span data-language-target="ru">Стек</span><span data-language-target="en">Stack</span></a>
-      <a href="#experience"><span data-language-target="ru">Опыт</span><span data-language-target="en">Experience</span></a>
-      <a href="#projects"><span data-language-target="ru">Проекты</span><span data-language-target="en">Projects</span></a>
-      <a href="#contact"><span data-language-target="ru">Контакты</span><span data-language-target="en">Contact</span></a>
-      <div class="language-switcher" aria-label="Language selector">
-        <button data-language-target="button" data-language="ru" data-action="language#switch" aria-label="Русский">RU</button>
-        <button data-language-target="button" data-language="en" data-action="language#switch" aria-label="English">EN</button>
+      <a href="#about"><%= t(".about") %></a>
+      <a href="#stack"><%= t(".stack") %></a>
+      <a href="#experience"><%= t(".experience") %></a>
+      <a href="#projects"><%= t(".projects") %></a>
+      <a href="#contact"><%= t(".contact") %></a>
+      <div class="language-switcher" aria-label="<%= t(".language_aria") %>">
+        <%= link_to "RU", root_path(locale: :ru), class: ("active" if I18n.locale == :ru), aria: { label: t(".russian_aria"), pressed: I18n.locale == :ru } %>
+        <%= link_to "EN", root_path(locale: :en), class: ("active" if I18n.locale == :en), aria: { label: t(".english_aria"), pressed: I18n.locale == :en } %>
       </div>
     </div>
   </nav>

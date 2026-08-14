@@ -1,0 +1,59 @@
+en:
+  layouts:
+    application:
+      title: "Ruby Queen — Anastasiia Moshina"
+      meta_description: "Anastasiia Moshina — Ruby on Rails backend developer. Elegant systems, reliable releases, and a little bit of magic."
+  home:
+    nav:
+      logo_aria: "Ruby Queen home"
+      about: "About"
+      stack: "Stack"
+      experience: "Experience"
+      projects: "Projects"
+      contact: "Contact"
+      language_aria: "Language selector"
+      russian_aria: "Russian"
+      english_aria: "English"
+    hero:
+      eyebrow: "Ruby on Rails developer"
+      heading_html: "I build backends<br>with a <em>royal</em><br>attitude."
+      intro: "Hi! I’m Anastasiia, a backend developer turning complex business processes into clear, reliable Rails applications."
+      cta_primary: "Let’s talk"
+      cta_secondary: "See my work"
+    about:
+      kicker: "About me"
+      heading_html: "Logic, empathy<br>and love for detail."
+      paragraph_one: "I specialize in Ruby on Rails and love challenges where solid architecture meets real product needs."
+      paragraph_two: "Integrations, background jobs, release automation and complex product modules are my territory."
+    stack:
+      kicker: "My stack"
+      heading: "Tools of my craft."
+    experience:
+      kicker: "Experience"
+      heading_html: "Five years building systems<br>people can rely on."
+      job_one_description: "Built custom lending and CRM systems, automated underwriting and commission calculations, and maintained internal APIs and document workflows. Improved GitHub Flow for sprints and releases."
+      job_two_description: "Developed product features and application architecture in teams of 10-15. Mentored and onboarded junior developers and contributed to task analysis."
+      job_three_description: "Maintained company gems and internal tools, designed databases and application architecture, and analyzed business requirements with customers."
+    projects:
+      kicker: "Selected projects"
+      heading_html: "Fintech, public systems<br>and meaningful ideas."
+      project_one_description: "A real-estate investor lending platform with a custom CRM, automating applications, income and background checks, and commission calculations."
+      project_two_description: "A Telegram bot for events, ticket purchases and communication for a project supporting political prisoners and their families."
+      project_three_title: "Video Surveillance Portal"
+      project_three_description: "A live monitoring and recording platform for major national exams and elections across thousands of locations."
+      project_four_description: "A cloud AI-powered service designed to help airlines maximize profit from every flight."
+      project_five_title: "Language Learning Platform"
+      project_five_description: "A foreign-language learning system built for a state-owned nuclear development company."
+      project_six_description: "A regional government social initiative for the Ulyanovsk region."
+    work:
+      kicker: "What I do"
+      heading_html: "From idea to reliable production."
+      service_one_title: "Backend development"
+      service_one_description: "Architecture, APIs, business logic and Rails application performance."
+      service_two_title: "Integrations"
+      service_two_description: "Payments, orders, email, storage and external services."
+      service_three_description: "Docker, Kamal, GitHub Actions, monitoring and calm releases."
+    contact:
+      kicker: "Have an exciting project?"
+      heading_html: "Let’s build<br><em>something brilliant.</em>"
+      placeholder_note: "Contact details are placeholders — replace them before publishing."

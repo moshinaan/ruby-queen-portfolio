@@ -9,8 +9,8 @@ body{margin:0;background:var(--cream);color:var(--ink);font-family:Manrope,sans-
 .nav-right{display:flex;align-items:center;gap:28px}
 .nav-right>a{color:var(--ink);text-decoration:none;font-size:14px;font-weight:700}
 .language-switcher{padding:4px;background:#eadde5;border-radius:99px}
-.language-switcher button{border:0;background:transparent;border-radius:99px;padding:7px 10px;font:700 11px Manrope;cursor:pointer;color:#7b6878}
-.language-switcher button.active{background:var(--ink);color:white}
+.language-switcher a{display:inline-block;border:0;background:transparent;border-radius:99px;padding:7px 10px;font:700 11px Manrope;text-decoration:none;cursor:pointer;color:#7b6878}
+.language-switcher a.active{background:var(--ink);color:white}
 .hero{min-height:700px;display:grid;grid-template-columns:1.12fr .88fr;align-items:center;gap:40px;padding-block:70px}
 .eyebrow,.kicker{font:500 12px DM Mono,monospace;text-transform:uppercase;letter-spacing:.14em}
 .status-dot{display:inline-block;width:8px;height:8px;margin-right:8px;background:#41c96e;border-radius:50%;box-shadow:0 0 0 5px #41c96e22}

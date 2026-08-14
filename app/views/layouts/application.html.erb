@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= I18n.locale %>">
   <head>
-    <title>Ruby Queen — Anastasiia Moshina</title>
+    <title><%= t("layouts.application.title") %></title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="Anastasiia Moshina — Ruby on Rails backend developer. Elegant systems, reliable releases, and a little bit of magic.">
+    <meta name="description" content="<%= t("layouts.application.meta_description") %>">
     <meta name="theme-color" content="#ff3d8d">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>

@@ -1,0 +1,59 @@
+ru:
+  layouts:
+    application:
+      title: "Ruby Queen — Anastasiia Moshina"
+      meta_description: "Anastasiia Moshina — Ruby on Rails backend developer. Elegant systems, reliable releases, and a little bit of magic."
+  home:
+    nav:
+      logo_aria: "Ruby Queen home"
+      about: "Обо мне"
+      stack: "Стек"
+      experience: "Опыт"
+      projects: "Проекты"
+      contact: "Контакты"
+      language_aria: "Language selector"
+      russian_aria: "Русский"
+      english_aria: "English"
+    hero:
+      eyebrow: "Ruby on Rails разработчик"
+      heading_html: "Создаю бэкенд<br>с <em>королевским</em><br>характером."
+      intro: "Привет! Я Анастасия — backend-разработчик. Превращаю сложные бизнес-процессы в понятные, надёжные Rails-приложения."
+      cta_primary: "Связаться со мной"
+      cta_secondary: "Посмотреть опыт"
+    about:
+      kicker: "Обо мне"
+      heading_html: "Логика, эмпатия<br>и любовь к деталям."
+      paragraph_one: "Я специализируюсь на Ruby on Rails и люблю задачи, где нужно соединить сильную архитектуру с реальными потребностями продукта."
+      paragraph_two: "Интеграции, фоновые задачи, автоматизация релизов и развитие сложных модулей — моя территория."
+    stack:
+      kicker: "Мой стек"
+      heading: "Инструменты моей мастерской."
+    experience:
+      kicker: "Опыт работы"
+      heading_html: "Пять лет создаю системы,<br>которым можно доверять."
+      job_one_description: "Разрабатывала кредитную платформу и CRM, автоматизировала андеррайтинг и расчёт комиссий, поддерживала внутренние API и документооборот. Улучшила GitHub Flow для спринтов и релизов."
+      job_two_description: "Разрабатывала новые функции и архитектуру приложения в командах по 10-15 человек. Занималась менторством и адаптацией junior-разработчиков, участвовала в анализе задач."
+      job_three_description: "Поддерживала внутренние gems и инструменты компании, проектировала базы данных и архитектуру приложений, анализировала бизнес-требования вместе с заказчиками."
+    projects:
+      kicker: "Избранные проекты"
+      heading_html: "Финтех, государственные<br>системы и социальные идеи."
+      project_one_description: "Платформа кредитования инвесторов в недвижимость с собственной CRM. Автоматизирует заявки, проверку доходов и биографии, а также расчёт комиссий."
+      project_two_description: "Telegram-бот для управления событиями, покупки билетов и общения в проекте поддержки политических заключённых и их семей."
+      project_three_title: "Портал видеонаблюдения"
+      project_three_description: "Система прямого видеомониторинга и записи во время государственных экзаменов и выборов для тысяч площадок."
+      project_four_description: "Облачный сервис на основе AI, помогающий авиакомпаниям повышать прибыльность каждого рейса."
+      project_five_title: "Языковая платформа"
+      project_five_description: "Система обучения иностранным языкам для государственной компании атомной отрасли."
+      project_six_description: "Государственный социальный проект Ульяновской области."
+    work:
+      kicker: "Что я делаю"
+      heading_html: "От идеи до стабильного продакшена."
+      service_one_title: "Backend-разработка"
+      service_one_description: "Архитектура, API, бизнес-логика и производительность Rails-приложений."
+      service_two_title: "Интеграции"
+      service_two_description: "Платежи, заказы, почта, хранилища и внешние сервисы."
+      service_three_description: "Docker, Kamal, GitHub Actions, мониторинг и спокойные релизы."
+    contact:
+      kicker: "Есть интересная задача?"
+      heading_html: "Давайте создадим<br><em>что-то прекрасное.</em>"
+      placeholder_note: "Контакты временные — замените их перед публикацией."
