@@ -1,0 +1,104 @@
+<main data-controller="language">
+  <nav class="nav shell" aria-label="Main navigation">
+    <a class="logo" href="#top" aria-label="Ruby Queen home"><span>RQ</span> Ruby Queen</a>
+    <div class="nav-right">
+      <a href="#about"><span data-language-target="ru">Обо мне</span><span data-language-target="en">About</span></a>
+      <a href="#stack"><span data-language-target="ru">Стек</span><span data-language-target="en">Stack</span></a>
+      <a href="#experience"><span data-language-target="ru">Опыт</span><span data-language-target="en">Experience</span></a>
+      <a href="#projects"><span data-language-target="ru">Проекты</span><span data-language-target="en">Projects</span></a>
+      <a href="#contact"><span data-language-target="ru">Контакты</span><span data-language-target="en">Contact</span></a>
+      <div class="language-switcher" aria-label="Language selector">
+        <button data-language-target="button" data-language="ru" data-action="language#switch" aria-label="Русский">RU</button>
+        <button data-language-target="button" data-language="en" data-action="language#switch" aria-label="English">EN</button>
+      </div>
+    </div>
+  </nav>
+
+  <section class="hero shell" id="top">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="status-dot"></span> <span data-language-target="ru">Ruby on Rails разработчик</span><span data-language-target="en">Ruby on Rails developer</span></p>
+      <h1><span data-language-target="ru">Создаю бэкенд<br>с <em>королевским</em><br>характером.</span><span data-language-target="en">I build backends<br>with a <em>royal</em><br>attitude.</span></h1>
+      <p class="intro"><span data-language-target="ru">Привет! Я Анастасия — backend-разработчик. Превращаю сложные бизнес-процессы в понятные, надёжные Rails-приложения.</span><span data-language-target="en">Hi! I’m Anastasiia, a backend developer turning complex business processes into clear, reliable Rails applications.</span></p>
+      <div class="hero-actions">
+        <a class="button primary" href="#contact"><span data-language-target="ru">Связаться со мной</span><span data-language-target="en">Let’s talk</span> <span>↗</span></a>
+        <a class="button secondary" href="#work"><span data-language-target="ru">Посмотреть опыт</span><span data-language-target="en">See my work</span></a>
+      </div>
+    </div>
+    <div class="ruby-orbit" aria-hidden="true">
+      <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+      <div class="crown">♛</div>
+      <div class="gem"><div class="gem-top"></div><div class="gem-bottom"></div></div>
+      <span class="code code-one">{ }</span><span class="code code-two">&lt;/&gt;</span><span class="code code-three">end</span>
+    </div>
+  </section>
+
+  <section class="marquee" aria-hidden="true"><div>RUBY ON RAILS ✦ HOTWIRE ✦ POSTGRESQL ✦ DOCKER ✦ KAMAL ✦ CLEAN CODE ✦ RUBY ON RAILS ✦ HOTWIRE ✦ POSTGRESQL ✦</div></section>
+
+  <section class="section shell" id="about">
+    <div class="section-number">01</div>
+    <div class="section-content about-grid">
+      <div><p class="kicker"><span data-language-target="ru">Обо мне</span><span data-language-target="en">About me</span></p><h2><span data-language-target="ru">Логика, эмпатия<br>и любовь к деталям.</span><span data-language-target="en">Logic, empathy<br>and love for detail.</span></h2></div>
+      <div class="body-copy"><p><span data-language-target="ru">Я специализируюсь на Ruby on Rails и люблю задачи, где нужно соединить сильную архитектуру с реальными потребностями продукта.</span><span data-language-target="en">I specialize in Ruby on Rails and love challenges where solid architecture meets real product needs.</span></p><p><span data-language-target="ru">Интеграции, фоновые задачи, автоматизация релизов и развитие сложных модулей — моя территория.</span><span data-language-target="en">Integrations, background jobs, release automation and complex product modules are my territory.</span></p></div>
+    </div>
+  </section>
+
+  <section class="section shell" id="stack">
+    <div class="section-number">02</div>
+    <div class="section-content"><p class="kicker"><span data-language-target="ru">Мой стек</span><span data-language-target="en">My stack</span></p><h2><span data-language-target="ru">Инструменты моей мастерской.</span><span data-language-target="en">Tools of my craft.</span></h2>
+      <div class="stack-grid">
+        <% [["Ruby", "3.4"], ["Rails", "8.x"], ["PostgreSQL", "17"], ["Hotwire", "Turbo + Stimulus"], ["Docker", "Kamal"], ["Testing", "RSpec / Minitest"], ["CI/CD", "GitHub Actions"], ["Monitoring", "Sentry / AppSignal"]].each do |name, detail| %>
+          <article class="stack-card"><span class="stack-icon">✦</span><h3><%= name %></h3><p><%= detail %></p></article>
+        <% end %>
+      </div>
+    </div>
+  </section>
+
+  <section class="section shell" id="experience">
+    <div class="section-number">03</div>
+    <div class="section-content"><p class="kicker"><span data-language-target="ru">Опыт работы</span><span data-language-target="en">Experience</span></p><h2><span data-language-target="ru">Пять лет создаю системы,<br>которым можно доверять.</span><span data-language-target="en">Five years building systems<br>people can rely on.</span></h2>
+      <div class="timeline">
+        <article><div class="timeline-date">06.2022 - 01.2025</div><div><p class="company">JetRockets</p><h3>Backend Developer</h3></div><div class="timeline-copy"><p data-language-target="ru">Разрабатывала кредитную платформу и CRM, автоматизировала андеррайтинг и расчёт комиссий, поддерживала внутренние API и документооборот. Улучшила GitHub Flow для спринтов и релизов.</p><p data-language-target="en">Built custom lending and CRM systems, automated underwriting and commission calculations, and maintained internal APIs and document workflows. Improved GitHub Flow for sprints and releases.</p></div></article>
+        <article><div class="timeline-date">02.2021 - 06.2022</div><div><p class="company">Rostelecom IT</p><h3>Ruby on Rails Developer</h3></div><div class="timeline-copy"><p data-language-target="ru">Разрабатывала новые функции и архитектуру приложения в командах по 10-15 человек. Занималась менторством и адаптацией junior-разработчиков, участвовала в анализе задач.</p><p data-language-target="en">Developed product features and application architecture in teams of 10-15. Mentored and onboarded junior developers and contributed to task analysis.</p></div></article>
+        <article><div class="timeline-date">01.2020 - 02.2021</div><div><p class="company">Purple Magic</p><h3>Ruby on Rails + React Developer</h3></div><div class="timeline-copy"><p data-language-target="ru">Поддерживала внутренние gems и инструменты компании, проектировала базы данных и архитектуру приложений, анализировала бизнес-требования вместе с заказчиками.</p><p data-language-target="en">Maintained company gems and internal tools, designed databases and application architecture, and analyzed business requirements with customers.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section shell" id="projects">
+    <div class="section-number">04</div>
+    <div class="section-content"><p class="kicker"><span data-language-target="ru">Избранные проекты</span><span data-language-target="en">Selected projects</span></p><h2><span data-language-target="ru">Финтех, государственные<br>системы и социальные идеи.</span><span data-language-target="en">Fintech, public systems<br>and meaningful ideas.</span></h2>
+      <div class="project-grid">
+        <article class="project-card featured"><div class="project-top"><span>01</span><b>Fintech</b></div><h3>LendingOne</h3><p data-language-target="ru">Платформа кредитования инвесторов в недвижимость с собственной CRM. Автоматизирует заявки, проверку доходов и биографии, а также расчёт комиссий.</p><p data-language-target="en">A real-estate investor lending platform with a custom CRM, automating applications, income and background checks, and commission calculations.</p><div class="project-tags"><span>Rails</span><span>CRM</span><span>Automation</span></div></article>
+        <article class="project-card"><div class="project-top"><span>02</span><b>Pet project</b></div><h3>FreedomZoneBot</h3><p data-language-target="ru">Telegram-бот для управления событиями, покупки билетов и общения в проекте поддержки политических заключённых и их семей.</p><p data-language-target="en">A Telegram bot for events, ticket purchases and communication for a project supporting political prisoners and their families.</p><div class="project-tags"><span>Telegram</span><span>Events</span><span>Social impact</span></div></article>
+        <article class="project-card"><div class="project-top"><span>03</span><b>GovTech</b></div><h3><span data-language-target="ru">Портал видеонаблюдения</span><span data-language-target="en">Video Surveillance Portal</span></h3><p data-language-target="ru">Система прямого видеомониторинга и записи во время государственных экзаменов и выборов для тысяч площадок.</p><p data-language-target="en">A live monitoring and recording platform for major national exams and elections across thousands of locations.</p><div class="project-tags"><span>High load</span><span>Video</span><span>Monitoring</span></div></article>
+        <article class="project-card"><div class="project-top"><span>04</span><b>AI / Aviation</b></div><h3>Rosterize</h3><p data-language-target="ru">Облачный сервис на основе AI, помогающий авиакомпаниям повышать прибыльность каждого рейса.</p><p data-language-target="en">A cloud AI-powered service designed to help airlines maximize profit from every flight.</p><div class="project-tags"><span>Cloud</span><span>AI</span><span>Aviation</span></div></article>
+        <article class="project-card"><div class="project-top"><span>05</span><b>EdTech</b></div><h3><span data-language-target="ru">Языковая платформа</span><span data-language-target="en">Language Learning Platform</span></h3><p data-language-target="ru">Система обучения иностранным языкам для государственной компании атомной отрасли.</p><p data-language-target="en">A foreign-language learning system built for a state-owned nuclear development company.</p><div class="project-tags"><span>Education</span><span>Enterprise</span></div></article>
+        <article class="project-card"><div class="project-top"><span>06</span><b>GovTech</b></div><h3>Molodoy.online</h3><p data-language-target="ru">Государственный социальный проект Ульяновской области.</p><p data-language-target="en">A regional government social initiative for the Ulyanovsk region.</p><div class="project-tags"><span>Social</span><span>Public sector</span></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section shell" id="work">
+    <div class="section-number">05</div>
+    <div class="section-content"><p class="kicker"><span data-language-target="ru">Что я делаю</span><span data-language-target="en">What I do</span></p><h2><span data-language-target="ru">От идеи до стабильного продакшена.</span><span data-language-target="en">From idea to reliable production.</span></h2>
+      <div class="services">
+        <article><span>01</span><h3><span data-language-target="ru">Backend-разработка</span><span data-language-target="en">Backend development</span></h3><p><span data-language-target="ru">Архитектура, API, бизнес-логика и производительность Rails-приложений.</span><span data-language-target="en">Architecture, APIs, business logic and Rails application performance.</span></p></article>
+        <article><span>02</span><h3><span data-language-target="ru">Интеграции</span><span data-language-target="en">Integrations</span></h3><p><span data-language-target="ru">Платежи, заказы, почта, хранилища и внешние сервисы.</span><span data-language-target="en">Payments, orders, email, storage and external services.</span></p></article>
+        <article><span>03</span><h3>DevOps & CI/CD</h3><p><span data-language-target="ru">Docker, Kamal, GitHub Actions, мониторинг и спокойные релизы.</span><span data-language-target="en">Docker, Kamal, GitHub Actions, monitoring and calm releases.</span></p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="shell contact-inner"><p class="kicker light"><span data-language-target="ru">Есть интересная задача?</span><span data-language-target="en">Have an exciting project?</span></p><h2><span data-language-target="ru">Давайте создадим<br><em>что-то прекрасное.</em></span><span data-language-target="en">Let’s build<br><em>something brilliant.</em></span></h2>
+      <div class="contact-links">
+        <a href="mailto:hello@example.com"><span>Email</span><strong>hello@example.com</strong><b>↗</b></a>
+        <a href="#" aria-label="Telegram placeholder"><span>Telegram</span><strong>@ruby_queen</strong><b>↗</b></a>
+        <a href="#" aria-label="LinkedIn placeholder"><span>LinkedIn</span><strong>/in/anastasiia</strong><b>↗</b></a>
+        <a href="#" aria-label="GitHub placeholder"><span>GitHub</span><strong>/ruby-queen</strong><b>↗</b></a>
+      </div>
+      <p class="placeholder-note"><span data-language-target="ru">Контакты временные — замените их перед публикацией.</span><span data-language-target="en">Contact details are placeholders — replace them before publishing.</span></p>
+    </div>
+  </section>
+  <footer class="footer"><div class="shell"><span>© <%= Time.current.year %> Anastasiia Moshina</span><span>Built with Ruby on Rails & ♥</span></div></footer>
+</main>

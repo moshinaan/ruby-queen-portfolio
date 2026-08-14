@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Ruby Queen — Anastasiia Moshina</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Anastasiia Moshina — Ruby on Rails backend developer. Elegant systems, reliable releases, and a little bit of magic.">
+    <meta name="theme-color" content="#ff3d8d">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <body><%= yield %></body>
+</html>
