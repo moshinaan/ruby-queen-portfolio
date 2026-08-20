@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="description" content="<%= t("layouts.application.meta_description") %>">
     <meta name="theme-color" content="#ff3d8d">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<%= t("layouts.application.title") %>">
+    <meta property="og:description" content="<%= t("layouts.application.meta_description") %>">
+    <meta property="og:url" content="<%= request.base_url %>">
+    <meta property="og:image" content="<%= "#{request.base_url}/og.png" %>">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<%= t("layouts.application.title") %>">
+    <meta name="twitter:description" content="<%= t("layouts.application.meta_description") %>">
+    <meta name="twitter:image" content="<%= "#{request.base_url}/og.png" %>">
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
     <link rel="preconnect" href="https://fonts.googleapis.com">
